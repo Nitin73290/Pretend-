@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pretend hacker</title>
+    <link rel="stylesheet" href="pretend.css" />
+  </head>
+  <script>
+    (async function first() {
+      let data = await setTimeout(() => {
+        //  console.log("Initializing the hack programm......");
+        document.getElementById("a").innerHTML =
+          "Initializing the hack programm......";
+      }, 2000);
+      console.log(data);
+    })();
+    (async function first() {
+      let data = await setTimeout(() => {
+        document.getElementById("b").innerHTML =
+          "Hacking Ashish username......";
+      }, 3000);
+      console.log(data);
+    })();
+    (async function first() {
+      let data = await setTimeout(() => {
+        document.getElementById("c").innerHTML = "User found ashish123......";
+      }, 4000);
+      console.log(data);
+    })();
+    (async function first() {
+      let data = await setTimeout(() => {
+        document.getElementById("d").innerHTML = "connecting to facebook......";
+      }, 5000);
+      console.log(data);
+    })();
+  </script>
+  <body>
+    <div class="abc">
+      <h1>Hacking!!!!</h1>
+      <h3 id="a"></h3>
+      <h3 id="b"></h3>
+      <h3 id="c"></h3>
+      <h3 id="d"></h3>
+    </div>
+  </body>
+</html>
